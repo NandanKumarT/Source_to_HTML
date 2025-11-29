@@ -55,11 +55,23 @@ int main() {
 
 Output snippet:
 
-<span class="preprocessor">#include &lt;stdio.h&gt;</span>
-<span class="keyword">int</span> main() {
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>sode2html</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:lightgrey;">
+<pre>
+<span class="preprocess_dir">#include</span><span class="preprocess_dir"> </span><span class="header_file">&lt;stdio.h&gt;</span>
+<span class="reserved_key1">int</span> main() {
     printf(<span class="string">"Hello World!"</span>);
-    <span class="keyword">return</span> 0;
+    <span class="reserved_key2">return</span> <span class="numeric_constant">0</span>;
 }
+</pre>
+</body>
+</html>
 🧪 Test Files
 
 Sample C programs are located inside the test/ folder for quick testing and verification.
